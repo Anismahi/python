@@ -18,4 +18,4 @@ print (lpp(2,8))
 def valeur_absolue(x):
     if x<0 :
       return x*(-1)
-print (valeur_absolue(-5))            
+print (valeur_absolue(-5))          
