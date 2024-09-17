@@ -60,3 +60,10 @@ def find_roots(a,b,c):
         return None
         
 print(find_roots(6,6,1))
+
+
+#mardi test
+S=0
+for i in range (1,6):
+    S=S+i 
+print(S)
