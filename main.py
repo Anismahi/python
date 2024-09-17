@@ -67,3 +67,13 @@ S=0
 for i in range (1,6):
     S=S+i 
 print(S)
+
+
+def seuil (eps):
+    u=1
+    n=0
+    while(u>eps):
+        u=u/(n+1)
+        n=n+1
+        return n 
+print(seuil(0))
