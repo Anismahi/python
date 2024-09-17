@@ -77,3 +77,12 @@ def seuil (eps):
         n=n+1
         return n 
 print(seuil(0))
+
+
+#exercice 16
+def p_ieme(n,p):
+    S=0
+    for k in range(1,n+1):
+        S=S+k**p
+    return S 
+print(p_ieme(8,2))
