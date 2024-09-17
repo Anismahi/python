@@ -86,3 +86,22 @@ def p_ieme(n,p):
         S=S+k**p
     return S 
 print(p_ieme(8,2))
+
+
+#exercie17
+def mult_7(n):
+    S=0
+    for i in range(1,n+1):
+        if i%7==0:
+            S=S+1
+    return S 
+print(mult_7(42))
+
+#partie 2
+def mult_7_pas_3_5(n):
+    count=0
+    for i in range(1,n+1):
+        if i%7==0 and i%3!=0 and i%5!=0:
+            count=count+1
+    return count
+print(mult_7_pas_3_5(50))
