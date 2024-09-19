@@ -105,3 +105,22 @@ def mult_7_pas_3_5(n):
             count=count+1
     return count
 print(mult_7_pas_3_5(50))
+
+
+
+
+x=50
+k=0
+while x<1000:
+    x=x+4*k
+    print(x)
+    k=k+1
+
+
+def est_parfait(n):
+    s=0
+    for i in range (1,n+1):
+        if n%i==0:
+            s=s+i 
+    return s==2*n
+print(est_parfait(10))
