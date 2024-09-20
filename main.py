@@ -124,3 +124,21 @@ def est_parfait(n):
             s=s+i 
     return s==2*n
 print(est_parfait(10))
+
+x=50
+k=0
+while x<1000:
+    x=x+4*k
+    print(x)
+    k=k+1
+
+def factorielle(n):
+    fact=1
+    for i in range(1,n+1):
+     fact=fact*i 
+    return fact
+print (factorielle(3))
+
+
+
+
