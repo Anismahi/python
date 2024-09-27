@@ -141,4 +141,111 @@ print (factorielle(3))
 
 
 
+#TP 2
+#exercice 1
+'''
+vrai
+faux 
+vrai
+faux 
+vrai
+vrai
+vrai
+faux
+'''
+#exercice 2
+'''
+B
+j
+7
+print([7])IndexError
+br
+brrrr
+yes there is 
+false minuscule
+true
+false
+bonjoura
+bonjourbonjour
+'''
+#exercice3
+'''
+a="2"
+b=3
+a=a+"1"
+b=a+"b"
+print(a,b)=21 21b
+'''
+'''
+A='a'
+B='b'
+A=A*2
+B=A+B
+print(A,B)=aab
+'''
+'''
+a=0
+b=1
+a=a+b
+b='a'+'b'
+print(a,b)=1 ab
+'''
 
+'''
+a='b'
+b='a'
+a=a*2
+b=a+b
+print(a,b)=bba
+'''
+#exercice4
+'''def chaine(c,n):
+    if n>0:
+        return c*n
+    else:
+        return False 
+ch='c'
+number=3
+result=chaine(ch,number)
+print(result)'''
+    
+'''def chaine_2 (c,d,n,m):
+    if (n>0 and m>0):
+       return (c*n + d*m) 
+    else:
+        return False 
+ch_1='c'
+number_1=2
+chh='d'
+number_2=2
+result=chaine_2(ch_1,chh,number_1,number_2)
+print(result)'''
+
+#exercie 6
+'''def chaine_ch(ch,n):
+    if n>0:
+      for i in range(n):
+        print(ch)
+    else:
+            return False
+a='ch'
+b=2
+result=chaine_ch(a,b)
+print(a,b)
+'''
+
+#exerice prof
+'''message="anis"
+message1=message.replace("anis","sina")
+print(message1)
+
+
+inverse="anis"
+inverse1=inverse[::-1]
+print(inverse1)
+
+string='anis'
+inverse = ''
+for i in string :
+    inverse = i + inverse 
+print (inverse )'''
