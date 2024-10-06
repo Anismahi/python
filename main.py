@@ -249,3 +249,20 @@ inverse = ''
 for i in string :
     inverse = i + inverse 
 print (inverse )'''
+
+
+
+
+def suspect(ch):
+    tentative=2
+    mdp="ANIS1234"
+if mdp!="ANIS1234":
+        tentative=tentative-1
+    return "le mot de passe est incorrect"
+elif tentative >=2:
+    return "on essaye de vous pirater"
+else:
+    return"le mot de passe est bon"
+
+
+'''while tentative<=2:'''
