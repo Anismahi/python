@@ -266,3 +266,36 @@ else:
 
 
 '''while tentative<=2:'''
+
+
+
+liste=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+
+password='anis'
+chaine=str()
+mot= input("entrez votre mot de passe :")
+
+def test1 (password,mot):
+    if chaine==password:
+        return 'le mot de passe est juste'
+    else:
+        return 'le mot de passe est incorrect'
+
+
+def brut_force():
+    for i in liste:
+        chaine=i
+        test1(chaine,mot)
+
+        for i2 in liste:
+            chaine=i+i2
+            test1(chaine,mot)
+
+            for i3 in liste:
+                chaine=i+i2+i3
+                test1(chaine,mot)
+
+                for i4 in liste:
+                    chaine=i+i2+i3+i4
+                    test1(chaine,mot)
+
