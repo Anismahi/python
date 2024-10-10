@@ -299,3 +299,19 @@ def brut_force():
                     chaine=i+i2+i3+i4
                     test1(chaine,mot)
 
+
+tentative=2
+mdp='ANIS1234'
+while tentative>0:
+    pwd=input('entrez votre mot de passe:')
+    if mdp==pwd:
+        print ("le mot de passe est correct")
+        break
+    elif pwd!=mdp:
+        print('le mot de passe est incorrect')
+        tentative=tentative-1
+        print ("il vous reste",tentative,"essais")
+        if tentative==0:
+            print('on vous hack')
+            print("notificattion envoyé a l'email du telephone")
+
